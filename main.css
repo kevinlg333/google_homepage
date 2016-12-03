@@ -1,17 +1,22 @@
 body {
 	box-sizing: border-box;
+	font-family: arial, sans-serif;
 }
 
 .nav {
+ 
+}
 
+ul {
+	list-style: none;
 }
 
 .nav_list {
 	list-style: none;
 }
 
-.nav_item {
-
+.nav_item, .bottom-left, .bottom-right {
+	display: inline-block;
 }
 
 
@@ -32,8 +37,36 @@ input {
 	width: 436px;
 	height: 30px;
 	margin-bottom: 30px;
+	border: 1px solid rgba(217, 217, 217, 1.0);
+}
+
+.btn-row {
+	width: 270px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 button {
 	-webkit-appearance: none;
+	border-style: none;
+	height: 34px;
+	padding: 3px 12px 3px 12px;
+}
+
+.right {
+	margin-left: 3px;
+}
+
+.right, .left {
+	background-color:rgba(242, 242, 242, 1.0);
+	color: rgba(133, 117, 117, 1.0);
+	font-size: 13px;
+}
+
+.footer {
+
+}
+
+.list-left, .list-right {
+	display: inline-block;
 }
