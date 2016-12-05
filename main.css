@@ -1,6 +1,7 @@
 body {
 	box-sizing: border-box;
 	font-family: arial, sans-serif;
+	margin: 0px;
 }
 
 .nav {
@@ -13,12 +14,21 @@ ul {
 
 .nav_list {
 	list-style: none;
+	margin-left: 800px;
+}
+
+.nav_item {
+	font-size: 13px;
 }
 
 .nav_item, .bottom-left, .bottom-right {
 	display: inline-block;
 }
 
+.notification {
+	width: 15px;
+	height: 15px;
+}
 
 .google {
 	width: 260px;
@@ -64,9 +74,29 @@ button {
 }
 
 .footer {
-
+	width: 100%;
+	height: 50px;
+	background-color:rgba(242, 242, 242, 1.0);
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid rgba(228, 228, 228, 1.0);
 }
 
 .list-left, .list-right {
 	display: inline-block;
+	color: rgba(133, 117, 117, 1.0);
+
+}
+
+.list-left {
+	margin-left: -23px;
+}
+
+.list-right {
+	margin-left: 470px;
+}
+
+.bottom-left, .bottom-right {
+	margin: 8px 15px;
+	font-size: 13px;
 }
