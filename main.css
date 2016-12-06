@@ -12,22 +12,42 @@ ul {
 	list-style: none;
 }
 
+a {
+	text-decoration: none;
+	color: rgba(133, 117, 117, 1.0);
+}
+
 .nav_list {
 	list-style: none;
-	margin-left: 800px;
+	margin-left: 720px;
+	margin-top: 6px;
 }
 
 .nav_item {
 	font-size: 13px;
+	margin: 8px;
 }
 
 .nav_item, .bottom-left, .bottom-right {
 	display: inline-block;
 }
 
+.apps {
+	width: 25px;
+	height: 25px;
+	margin-bottom: -8px;
+}
+
 .notification {
-	width: 15px;
-	height: 15px;
+	width: 24px;
+	height: 24px;
+	margin-bottom: -8px;
+}
+
+.k-logo {
+	width: 30px;
+	height: 30px;
+	margin-bottom: -8px;
 }
 
 .google {
@@ -35,6 +55,10 @@ ul {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+
+main {
+	margin-top: 120px;
 }
 
 form {
@@ -63,6 +87,11 @@ button {
 	padding: 3px 12px 3px 12px;
 }
 
+button:hover {
+	color: black; 
+	border: 1px solid black;
+}
+
 .right {
 	margin-left: 3px;
 }
@@ -75,7 +104,7 @@ button {
 
 .footer {
 	width: 100%;
-	height: 50px;
+	height: 45px;
 	background-color:rgba(242, 242, 242, 1.0);
 	position: absolute;
 	bottom: 0;
@@ -97,6 +126,7 @@ button {
 }
 
 .bottom-left, .bottom-right {
-	margin: 8px 15px;
+	margin-left: 15px;
+	margin-right: 15px;
 	font-size: 13px;
 }
