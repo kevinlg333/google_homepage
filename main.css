@@ -19,8 +19,10 @@ a {
 
 .nav_list {
 	list-style: none;
-	margin-left: 720px;
 	margin-top: 6px;
+	position: relative;
+	margin-right: 16px;
+	text-align: right;
 }
 
 .nav_item {
